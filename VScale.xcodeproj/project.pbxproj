@@ -12,6 +12,7 @@
 		D7B9D2141E55794F0045A888 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B9D2121E55794F0045A888 /* Main.storyboard */; };
 		D7B9D2161E55794F0045A888 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7B9D2151E55794F0045A888 /* Assets.xcassets */; };
 		D7B9D2191E55794F0045A888 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7B9D2171E55794F0045A888 /* LaunchScreen.storyboard */; };
+		D7B9D2211E557BD00045A888 /* BluetoothTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B9D2201E557BD00045A888 /* BluetoothTools.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D7B9D2151E55794F0045A888 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7B9D2181E55794F0045A888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7B9D21A1E55794F0045A888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7B9D2201E557BD00045A888 /* BluetoothTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothTools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				D7B9D20E1E55794F0045A888 /* AppDelegate.swift */,
 				D7B9D2101E55794F0045A888 /* ViewController.swift */,
+				D7B9D2201E557BD00045A888 /* BluetoothTools.swift */,
 				D7B9D2121E55794F0045A888 /* Main.storyboard */,
 				D7B9D2151E55794F0045A888 /* Assets.xcassets */,
 				D7B9D2171E55794F0045A888 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7B9D2111E55794F0045A888 /* ViewController.swift in Sources */,
+				D7B9D2211E557BD00045A888 /* BluetoothTools.swift in Sources */,
 				D7B9D20F1E55794F0045A888 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,7 +208,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -248,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -302,6 +306,7 @@
 				D7B9D21F1E55794F0045A888 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
